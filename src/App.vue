@@ -1,5 +1,6 @@
 <script setup lang="ts">
-import { RouterView } from 'vue-router'
+import { RouterView } from 'vue-router';
+import PlayUI from './components/PlayUI.vue';
 </script>
 
 <template>
@@ -23,6 +24,7 @@ import { RouterView } from 'vue-router'
     <div class="container">
       <RouterView/>
     </div>
+    <PlayUI/>
   </div>
 </template>
 
