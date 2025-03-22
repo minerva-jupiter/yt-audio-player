@@ -24,7 +24,9 @@ import PlayUI from './components/PlayUI.vue';
     <div class="container">
       <RouterView/>
     </div>
-    <PlayUI/>
+    <div class="container">
+      <PlayUI />
+    </div>
   </div>
 </template>
 
